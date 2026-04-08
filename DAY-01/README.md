@@ -11,6 +11,7 @@ This helps organizations protect their sensitive resources by restricting unnece
 A User represents an individual person that needs access to the AWS environment.
 When a person joins an organization, an IAM user is created for them.
 The permissions (what a user can or cannot do) are controlled using policies, which are attached directly to the user or inherited through groups.
+
 **Group**
 
 A Group is a collection of users with similar access requirements.
@@ -20,11 +21,13 @@ Example:
 Developers → Access to development resources
 Testers → Access to testing environments
 When a new user joins, they can simply be added to the appropriate group, and the required permissions are automatically applied.
+
 **Roles**
 
 Roles are similar to users, but they provide temporary access and do not have permanent credentials.
 Roles are used to grant secure access to AWS resources without sharing long-term access keys. 
 They are commonly used for interactions between AWS services or for granting temporary access to users or applications.
+
 **Policies**
 
 IAM policies are JSON documents that defines permissions. 
