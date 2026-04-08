@@ -1,7 +1,7 @@
 **DAY 1**
 
 **IAM (Identity and Access Management)** 
-IAM helps to securely control access to AWS resources. It enables authentication(who can access) and authorization(what actions they perform). 
+ helps to securely control access to AWS resources. It enables authentication(who can access) and authorization(what actions they perform). 
 IAM follows the principle of "least Privilege", which means users are given only the permissions required to perform their tasks. 
 This helps organizations protect their sensitive resources by restricting unnecessary access.
 # Key Components of IAM
