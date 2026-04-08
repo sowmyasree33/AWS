@@ -17,9 +17,12 @@ The permissions (what a user can or cannot do) are controlled using policies, wh
 A Group is a collection of users with similar access requirements.
 Creating individual users and attaching policies to each of them is not an efficient or scalable process. 
 To simplify management, users are added to groups, and policies are attached to the group instead of individual users.
-Example:
+
+# Example:
+
 Developers → Access to development resources
 Testers → Access to testing environments
+
 When a new user joins, they can simply be added to the appropriate group, and the required permissions are automatically applied.
 
 **Roles**
