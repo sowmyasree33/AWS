@@ -21,6 +21,7 @@ To simplify management, users are added to groups, and policies are attached to 
 # Example:
 
 Developers → Access to development resources
+
 Testers → Access to testing environments
 
 When a new user joins, they can simply be added to the appropriate group, and the required permissions are automatically applied.
