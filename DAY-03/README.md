@@ -1,4 +1,4 @@
-**VPC-Virtual Private Cloud**
+**VPC-Virtual Private Cloud** ,**Security Groups , NACL**
 
 VPC allows you to create a private space inside AWS cloud. Its nothing but a logically isolated network which is more secure.
 VPC is created with a IP address range and this ranges are divided into smaller networks called subnets.
