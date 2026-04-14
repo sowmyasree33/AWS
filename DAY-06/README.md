@@ -30,7 +30,7 @@ Root account credentials should be avoided, as they provide unrestricted access 
 
 ## CLI Command Structure
 
-aws <service> <operation> <parameter>
+`aws <service> <operation> <parameter>`
 
 aws ->Entry point for all commands
 
