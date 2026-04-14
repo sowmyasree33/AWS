@@ -30,7 +30,7 @@ Root account credentials should be avoided, as they provide unrestricted access 
 
 ## CLI Command Structure
 
-aws <service> <operation> [<parameter>/optional]
+aws <service> <operation> <parameter>
 
 aws ->Entry point for all commands
 
@@ -42,6 +42,6 @@ operation ->what action you want to perform
 
 EX: ls(list),mb(make-bucket),run-instances(ec2)
 
-parameter ->Extra inputs required for the command 
+parameter ->Extra inputs required for the command (optional)
 
 EX: bucket names, region, path
