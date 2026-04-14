@@ -3,7 +3,9 @@
 AWS CLI is a tool that allows users to interact with AWS services using commands in a terminal. 
 
 CLI enables: 
+
       -> Automation using scripts
+      
       ->Faster and repeatable operations
 
 AWS CLI interacts with AWS services by making API calls using configured credentials.
@@ -13,7 +15,9 @@ AWS CLI is platform-independent and can be used on Windows, Linux, and macOS.
 ## Authetication
 
 To use AWS CLI, you need credentials:
+
     ->Access keyID
+    
     ->Secret Access Key 
 
 These are configured using **aws configure** command.
