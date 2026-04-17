@@ -105,24 +105,34 @@ AWS CodeBuild runs:
     
 ## AWS CodeBuild
    Executes CI tasks:
+   
         ->Build
+        
         ->Test
+        
         ->Package
+        
    Uses buildspec.yml
    
 ## AWS CodeDeploy
+
    Handles deployment:
+   
            EC2
+           
            Lambda
+           
    Supports rolling updates, blue/green deployments
 
 ## When to Use What?
+
    **Use Jenkins when:**
    ->You need flexibility
    ->Multi-cloud or hybrid setup
    ->Complex custom pipelines
    
   **Use AWS CI/CD when:**
+  
     ->Your infra is in AWS 
     ->You want low maintenance
     ->You prefer managed services
