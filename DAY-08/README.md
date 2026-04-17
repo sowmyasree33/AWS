@@ -1,8 +1,8 @@
 ## CI/CD services in AWS
 
-CI-Continuous Integration
+CI (Continuous Integration): Automates build and testing of code
 
-CD-Continuous delivery
+CD (Continuous Delivery/Deployment): Automates release and deployment
 
 ## CI/CD: Traditional vs AWS Managed Services
 
@@ -89,6 +89,10 @@ AWS CodeBuild runs:
 1. AWS CodeDeploy:
    
    Deploys to EC2 / Lambda
+
+CodeDeploy does NOT support Kubernetes
+
+For Kubernetes deployments, use: Argo CD (GitOps approach)
    
 
 ## AWS CodeCommit
@@ -113,6 +117,8 @@ AWS CodeBuild runs:
         ->Package
         
    Uses buildspec.yml
+
+   Runs inside containers (no server management)
    
 ## AWS CodeDeploy
 
@@ -123,6 +129,12 @@ AWS CodeBuild runs:
            Lambda
            
    Supports rolling updates, blue/green deployments
+
+   Blue/Green deployment is a release strategy where you maintain two identical environments:
+
+   Blue → Current live version (serving users)
+   
+   Green → New version (ready to be deployed)
 
 ## When to Use What?
 
