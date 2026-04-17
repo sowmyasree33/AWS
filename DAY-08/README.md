@@ -127,8 +127,11 @@ AWS CodeBuild runs:
 ## When to Use What?
 
    **Use Jenkins when:**
+   
    ->You need flexibility
+   
    ->Multi-cloud or hybrid setup
+   
    ->Complex custom pipelines
    
   **Use AWS CI/CD when:**
