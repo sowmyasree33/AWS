@@ -33,25 +33,35 @@ CD-Continuous delivery
         ArgoCD ensures cluster matches Git state
      
 ##  Key Characteristics
+
 ->Jenkins does most of the work
+
 ->Requires:
+
   Server setup
+  
   Plugin management
+  
   Scaling manually
+  
 ->Very flexible but high maintenance
 
 ## AWS CI/CD Flow 
 
 AWS replaces Jenkins + multiple tools with managed services:
 
-**AWS CodeCommit
-AWS CodePipeline
-AWS CodeBuild
-AWS CodeDeploy**
+**AWS CodeCommit**
+
+**AWS CodePipeline**
+
+**AWS CodeBuild**
+
+**AWS CodeDeploy**
 
 ## Workflow
 
 1. Developer pushes code to CodeCommit
+   
    Trigger starts CodePipeline
 
 ## Stage 1: Source
@@ -76,11 +86,12 @@ AWS CodeBuild runs:
 ## Stage 3: Deploy (CD)
 
 1. AWS CodeDeploy:
+   
    Deploys to EC2 / Lambda
+   
 For Kubernetes:
-   Use Argo CD instead
 
-## Important Points
+   Use Argo CD instead
 
 ## AWS CodeCommit
    
