@@ -90,9 +90,6 @@ AWS CodeBuild runs:
    
    Deploys to EC2 / Lambda
    
-For Kubernetes:
-
-   Use Argo CD instead
 
 ## AWS CodeCommit
    
