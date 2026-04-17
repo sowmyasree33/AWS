@@ -1,6 +1,7 @@
 ## CI/CD services in AWS
 
 CI-Continuous Integration
+
 CD-Continuous delivery
 
 ## CI/CD: Traditional vs AWS Managed Services
