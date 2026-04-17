@@ -51,7 +51,7 @@ CloudFormation templates used for repeatable, consistent infrastructure provisio
 8. **Outputs** – Values returned after stack creation (like bucket name, IP address, etc.)
 
 
- ## STACK
+ ## Stack
 
 A stack is a collection of AWS resources that are created and managed together using CloudFormation templates.
 
