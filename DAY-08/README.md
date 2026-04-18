@@ -115,9 +115,7 @@ For Kubernetes deployments, use: Argo CD (GitOps approach)
         
         ->Package
         
-   Uses buildspec.yml
-
-   Runs inside containers (no server management)
+In AWS CodeBuild, the build process is defined using a buildspec.yml file, which contains commands for installation, build, and testing phases. CodeBuild executes these steps inside a temporary container environment, eliminating the need to manage servers and ensuring a clean and consistent build environment.
    
 ## AWS CodeDeploy
 
@@ -147,7 +145,8 @@ For Kubernetes deployments, use: Argo CD (GitOps approach)
    
   **Use AWS CI/CD when:**
   
-    ->Your infra is in AWS 
-    ->You want low maintenance
-    ->You prefer managed services
+    ->Your infrastructure is in AWS 
     
+    ->You want low maintenance
+    
+    ->You don’t need heavy customization
