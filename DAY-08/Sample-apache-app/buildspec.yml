@@ -6,11 +6,12 @@ phases:
       - echo Installing Apache
       - sudo apt update
       - sudo apt install apache2 -y
-
+      
   build:
     commands:
-      - echo Copying files
-      - cp index.html /var/www/html/
+      - echo Moving to app directory
+      - cd DAY-08/Sample-apache-app
+      - ls
 
   post_build:
     commands:
