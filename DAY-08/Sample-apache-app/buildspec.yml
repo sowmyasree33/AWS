@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing Apache
+      - sudo apt update
+      - sudo apt install apache2 -y
+
+  build:
+    commands:
+      - echo Copying files
+      - cp index.html /var/www/html/
+
+  post_build:
+    commands:
+      - echo Build completed
