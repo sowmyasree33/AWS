@@ -19,11 +19,18 @@ phases:
 
   build:
     commands:
+      - echo CURRENT LOCATION
+      - pwd
+      - ls -la
+
+      - echo Moving to correct folder
+      - cd DAY-08/Sample-apache-app
+
+      - echo VERIFY FILES
+      - ls -la
+
       - echo Building Docker image
       - docker build -t $DOCKER_USERNAME/apache-app .
-
-      - echo Tagging image
-      - docker tag $DOCKER_USERNAME/apache-app $DOCKER_USERNAME/apache-app:latest
 
   post_build:
     commands:
