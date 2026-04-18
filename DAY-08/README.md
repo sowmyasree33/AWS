@@ -30,8 +30,7 @@ CD (Continuous Delivery/Deployment): Automates release and deployment
  4. For Continuous Delivery (CD):
         Jenkins or external tools (like ArgoCD) deploy application
  5.  In GitOps:
-        Kubernetes manifests are updated
-        ArgoCD ensures cluster matches Git state
+       when Kubernetes manifests are updated, argoCD ensures cluster matches Git state
      
 ##  Key Characteristics
 
