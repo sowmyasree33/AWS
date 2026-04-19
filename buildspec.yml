@@ -1,0 +1,38 @@
+version: 0.2
+
+env:
+  parameter-store:
+    DOCKER_USERNAME: "DOCKER_USERNAME"
+    DOCKER_PASSWORD: "DOCKER_PASSWORD"
+
+phases:
+  install:
+    commands:
+      - echo Installing Docker
+      - apt update
+      - apt install docker.io -y
+
+  pre_build:
+    commands:
+      - echo Logging into DockerHub
+      - echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
+
+  build:
+    commands:
+      - echo CURRENT LOCATION
+      - pwd
+      - ls -la
+
+      - echo Moving to correct folder
+      - cd DAY-08/Sample-apache-app
+
+      - echo VERIFY FILES
+      - ls -la
+
+      - echo Building Docker image
+      - docker build -t $DOCKER_USERNAME/apache-app .
+
+  post_build:
+    commands:
+      - echo Pushing image
+      - docker push $DOCKER_USERNAME/apache-app:latest
