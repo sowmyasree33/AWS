@@ -53,7 +53,9 @@ CloudWatch Alarms monitor metrics and trigger actions based on thresholds.
 Example:
       
   If CPU utilization > 70%, trigger alert
+  
      Actions:
+     
       Send notification (SNS)
       
       Trigger Auto Scaling
@@ -98,7 +100,7 @@ Example:
   
 # Integration & Automation
   
-  cloudWatch integrates with:
+  CloudWatch integrates with:
   
     EC2 Auto Scaling (for scaling resources)
     
