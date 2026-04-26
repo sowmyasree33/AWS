@@ -30,9 +30,21 @@ CloudWatch provides near real-time, not exact real-time metrics
 
 Application-level metrics (e.g., API request count) require custom metrics or CloudWatch Agent
 
-Custom metrics cannot be manually deleted
+# Custom Metrics
 
-Metrics expire after 15 months of inactivity
+A custom metric is a metric that you define and send to CloudWatch manually, because AWS does not provide it by default.
+
+Ex: Memory utilization, Disk usage
+
+Custom metrics are not automatic
+
+  They appear only after first push
+
+  You must continuously send data
+  
+  They can be used in alarms & dashboards
+
+Custom metrics cannot be manually deleted . Metrics expire after 15 months of inactivity
 
 # Alarms
 
