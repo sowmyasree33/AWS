@@ -139,7 +139,7 @@ Infrastructure as Code, and cloud-native technologies.
 <div class="skill">SQL</div>
 <div class="skill">GitHub</div>
 <div class="skill">VS Code</div>
-<div class="skill">Arduino</div>
+<div class="skill">GitBash</div>
 <div class="skill">Windows</div>
 
 </div>
