@@ -1,4 +1,4 @@
-# AWS Load Balancers (ELB) - DevOps Notes
+# AWS Load Balancers (ELB) 
 
 ## What is a Load Balancer?
 
