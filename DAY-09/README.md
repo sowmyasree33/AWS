@@ -122,6 +122,3 @@ Helps in network troubleshooting and security analysis
     Overutilized resources
     
 Automation can be implemented using Lambda and alarms.
-
-
-
