@@ -6,9 +6,9 @@ This project demonstrates a secure and scalable AWS architecture using VPC, publ
 
 We use private subnets to ensure that application servers are not directly exposed to the internet. This improves security by allowing access only through controlled components like load balancers or bastion hosts, while still enabling outbound internet access via NAT Gateway.
 
-NAT Gateway-> It allows resources in private subnet to access the internet without exposing them to incoming internet traffic
+**NAT Gateway**-> It allows resources in private subnet to access the internet without exposing them to incoming internet traffic
 
-Bastion Host->It acts as a gateway to access private subnet instances. Since private instances do not have public IP's , we first SSH to bastion host and then connect to private instance, ensuring secure and controlled access.
+**Bastion Host**->It acts as a gateway to access private subnet instances. Since private instances do not have public IP's , we first SSH to bastion host and then connect to private instance, ensuring secure and controlled access.
 
 ## Architecture
 
