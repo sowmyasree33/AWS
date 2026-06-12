@@ -17,7 +17,7 @@ CloudFormation templates used for repeatable, consistent infrastructure provisio
 
 ->Declarative templates(YAML/JSON)
 
-->Drift detection : Detects difference between the expected configuration(template) and actual deployed resources
+->**Drift detection** : Detects difference between the expected configuration(template) and actual deployed resources
 
  **Note**  : It only detects changes, it does not fix them automatically.
 
