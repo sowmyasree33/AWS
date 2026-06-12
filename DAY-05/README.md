@@ -161,5 +161,3 @@ Amazon S3 provides different storage classes to optimize cost based on access pa
 * No retrieval charges for frequent and infrequent tiers
 * Small monitoring and automation cost per object
 * Ideal when access patterns are unknown
-
-
