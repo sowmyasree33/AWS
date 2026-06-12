@@ -1,4 +1,3 @@
-**DAY 1**
 
 **IAM (Identity and Access Management)** 
  helps to securely control access to AWS resources. It enables authentication(who can access) and authorization(what actions they perform). 
